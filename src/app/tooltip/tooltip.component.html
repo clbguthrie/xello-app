@@ -1,0 +1,3 @@
+<div id="tooltipDiv" (click)="tooltipClick()" class="tooltip-div" *ngIf="showTooltip && text.length > 0" [ngStyle]="{'top.px': yPos, 'left.px': xPos}">
+  {{text}}
+</div>
